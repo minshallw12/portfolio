@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(175,195,220);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: 2px dotted purple
+}
+
+#logo {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px
+}
+
+.headshot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 300px;
+    padding: 3px;
+    margin: 3px
+}
+#headshot {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+#logo {
+    border-radius: 10px;
+}
+.currently_working_at {
+    border: 2px dotted green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px
+}
+
+.contact_info {
+    border: 3px solid black;
+    text-align: center;
+    margin: 10px
+}
+
+
+footer {
+    background-color: azure;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 10px
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
